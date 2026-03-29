@@ -12,7 +12,7 @@
 
 - This Repo can be used as a reference for a hackintosh based on the same board, but please do not rely on this repo. Please use the <a href="https://dortania.github.io/OpenCore-Install-Guide/">Opencore Install Guide</a> As there are hardware differences and not all things will work the same if you choose to go down the route of using this as a base for your machine.
 - This EFI is configured for OSX 10.13 High Sierra.
-- I am using a ASPEED AST 2050 Baseboard Management Controller for video, It lacks video acceleration and proper resolution support and is not compatible with Macos in any means, It will spit out video
+- I am using a ASPEED AST 2050 Baseboard Management Controller for video, It lacks video acceleration and proper resolution support and is not compatible with Macos in any means, It will still spit out video regardless.
 - I had to use a tool called BOOTICE to modify / add the Boot sectors into the usb drive to make opencore bootable, without it the installer would not boot (legacy bios quirk.)
   
 This repository may or may not be updated depending on if I keep macOS on the machine and get a proper GPU. If I do, I will update this repository accordingly — if not, it will remain here as-is. For any machine like this, I recommend moving to AMD for a GPU instead of NVIDIA. You will be stuck on 10.13 and only Pascal/Maxwell cards can work. Modern MacOS Support will not work.
