@@ -86,7 +86,7 @@ These are links to the kexts used in the EFI Folder
 | Motherboard | Asus Z8NA-D6                                       |
 | RAM         | 32GB DDR3 ECC 1333MHz (4x8GB HP/Nanya)             |
 | Storage     | 500GB WD Black HDD (SATA)                          |
-| GPU         | ASPEED AST2050 BMC (VGA only, no acceleration)     |
+| GPU         | Nvidia GTX 780     |
 | Ethernet    | 2x Intel 82574L 1Gbps                              |
 | Audio       | Realtek ALC (onboard, no soundcard)                |
 
